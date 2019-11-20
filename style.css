@@ -1,0 +1,176 @@
+/* general styles */
+body {
+  font-family: "Nunito", sans-serif;
+    background-color: antiquewhite
+}
+
+
+}
+
+.container {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+
+}
+
+h1 {
+  font-size: 50px;
+    
+}
+.titre {font-family: 'Pacifico', cursive;}
+
+h2 {
+  font-size: 36px;
+}
+
+/* nav bar */
+nav {
+  background-color: black;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  list-style-type: none;
+}
+
+nav li {
+  padding: 20px 30px;
+}
+
+nav a {
+  color:#B4EAE5;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color:antiquewhite;
+  text-decoration: line-through;
+}
+.pageactuelle {
+    color:white;
+
+}
+
+/* header section */
+header {
+  background: linear-gradient(180deg,#0C4F6B,#B4EAE5, antiquewhite);
+  font-size: 25px;
+  padding: 5% 10%;
+}
+
+}
+
+/* quisommesnousme section */
+.quisommesnous {
+ 
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.cemalquimeronge {
+ background: linear-gradient(180deg,antiquewhite,#B4EAE5, #EA9F33);
+font-family: "Nunito", sans-serif; 
+}
+
+
+.lafemmesilencieuse {
+  background: linear-gradient(180deg,antiquewhite, #9FA7A9, antiquewhite);
+font-family: "Nunito", sans-serif;
+}
+
+.attractionsoleil {
+    background: linear-gradient(180deg,antiquewhite, #EA9F33, antiquewhite);
+}
+
+
+/* footer */
+
+.footer {
+    position: relative;
+    top: 30px;
+    z-index: 3;
+    max-width:inherit;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#3f3c3c;
+}
+
+.footer-content {
+    padding: 5px 5px 5px 20px;
+    color: white;
+     display: inline;
+    vertical-align: middle;
+}
+
+.footer-content a:link {
+    color: white;
+    text-decoration: none;
+   
+}
+
+/* Je veux mettre une photo à coté du texte */
+
+div.miseenpage { /* Position Logo and Text  */
+  display: inline;
+    vertical-align: middle;
+  
+}
+
+div.photophoto { /* Position logo within site-branding */
+    display: inline;
+    float: right;
+    vertical-align:top;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+ 
+    
+}
+
+div.phototexte { /* Position text within site-branding */
+    display: inline;
+    float:inherit;
+    vertical-align: top;
+    
+    
+   
+}
+div.miseenpage2 { /* Position Logo and Text  */
+  display: inline-block;
+    vertical-align: middle;
+  
+}
+
+div.photophoto2 { /* Position logo within site-branding */
+    display: inline;
+    float: left;
+    vertical-align:top;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-left: 20px;
+    
+    
+}
+
+div.phototexte2 { /* Position text within site-branding */
+    display: inline;
+    float:inherit;  
+}
+
+.image-ronde{
+
+  border-radius : 200px;}
+
+.texte {padding: 10px 50px;
+font-family: "Nunito", sans-serif;
+font-size: 18px;
+line-height: 1.5}
+
+figcaption {font-size: 12px;}
+
+alt {margin-left: 100px}
